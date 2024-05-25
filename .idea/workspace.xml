@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="64394a14-fb82-4b98-b8e6-2ef52959b966" name="Changes" comment="DONE: configuration, pom.xml, AppMain">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/ListOfTasksController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/SubtaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/TaskController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/advice/EntityNotFoundExceptionAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/ListOfTasksDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/SubtaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/TaskDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/ListOfTasksMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/SubtaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/TaskMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/ListOfTasksEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/SubtaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/TaskEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/repository/ListOfTasksRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/repository/SubtaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/repository/TaskRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/SubtaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/SubtaskServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/TaskService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/TaskServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +39,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -26,7 +52,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2eio046cPrLYtMgSSGwhM2il67A" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,7 +62,10 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Application.AppMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.RUN.executor&quot;: &quot;Run&quot;,
     &quot;Java Scratch.AppMain.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manager-server [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.task-manager-server [install].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
@@ -46,6 +77,21 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="taskmanager.service" />
+      <recent name="taskmanager.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="RUN" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="taskmanager.AppMain" />
+      <module name="task-manager-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
