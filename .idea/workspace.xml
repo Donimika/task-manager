@@ -4,32 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="64394a14-fb82-4b98-b8e6-2ef52959b966" name="Changes" comment="DONE: configuration, pom.xml, AppMain">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/ListOfTasksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/SubtaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/TaskController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/advice/EntityNotFoundExceptionAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/ListOfTasksDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/SubtaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/TaskDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/ListOfTasksMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/SubtaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/TaskMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/ListOfTasksEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/SubtaskEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/TaskEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/repository/ListOfTasksRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/repository/SubtaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/entity/repository/TaskRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/SubtaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/SubtaskServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/TaskService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/TaskServiceImpl.java" afterDir="false" />
+    <list default="true" id="64394a14-fb82-4b98-b8e6-2ef52959b966" name="Changes" comment="DONE: EntityNotFoundExceptionAdvice, ListOfTasks + Task + Subtask - controller, dto, entity, mapper, repository, service i + impl,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +93,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712469955659</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="DONE: EntityNotFoundExceptionAdvice, ListOfTasks + Task + Subtask - controller, dto, entity, mapper, repository, service i + impl,">
+      <option name="closed" value="true" />
+      <created>1716662262627</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716662262627</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -145,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DONE: configuration, pom.xml, AppMain" />
-    <option name="LAST_COMMIT_MESSAGE" value="DONE: configuration, pom.xml, AppMain" />
+    <MESSAGE value="DONE: EntityNotFoundExceptionAdvice, ListOfTasks + Task + Subtask - controller, dto, entity, mapper, repository, service i + impl," />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE: EntityNotFoundExceptionAdvice, ListOfTasks + Task + Subtask - controller, dto, entity, mapper, repository, service i + impl," />
   </component>
 </project>
