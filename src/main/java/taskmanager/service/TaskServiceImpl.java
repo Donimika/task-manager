@@ -28,9 +28,15 @@ public class TaskServiceImpl implements TaskService {
         TaskEntity taskEntity = taskMapper.toEntity(taskDTO);
         TaskEntity savedTaskEntity = taskRepository.save(taskEntity);
 
-        return taskMapper.toDTO(savedTaskEntity);
-    }
+        System.out.println(savedTaskEntity.getParentList().getDescription());
+        TaskDTO returnedTaskDTO = taskMapper.toDTOIgnoreSubtasksAndParentList(savedTaskEntity);
 
+        System.out.println(returnedTaskDTO.getParentList().getDescription());
+        returnedTaskDTO.setParentList(listOfTasksMapper.toDTO(savedTaskEntity.getParentList()));
+
+        return returnedTaskDTO;
+    }
+    //:TODO ignore v jedntlivých mapperech, může způsobit chybu v podobě null hodnoty, možná bude třeba ji ručně přiřadit zde
     private TaskEntity fetchTaskById(long id) {
         return taskRepository.findById(id)
                 .orElseThrow(() -> new NotFoundException("Task with id " + id + " wasn't found."));

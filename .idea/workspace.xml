@@ -6,6 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="64394a14-fb82-4b98-b8e6-2ef52959b966" name="Changes" comment="DONE: EntityNotFoundExceptionAdvice, ListOfTasks + Task + Subtask - controller, dto, entity, mapper, repository, service i + impl,">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/controller/ListOfTasksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/controller/ListOfTasksController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/dto/ListOfTasksDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/ListOfTasksDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/dto/SubtaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/SubtaskDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/dto/TaskDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/TaskDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/ListOfTasksMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/ListOfTasksMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/SubtaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/SubtaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/TaskMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/dto/mapper/TaskMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/ListOfTasksServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/service/SubtaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/SubtaskServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/taskmanager/service/TaskServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/taskmanager/service/TaskServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
